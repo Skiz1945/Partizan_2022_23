@@ -91,7 +91,7 @@ Hurdles I navigated during the project:
 
 ## Conclusion
 
-This analysis of Partizan’s 2022/23 EuroLeague season uncovered strengths (e.g., Lessort’s efficiency, Leday’s adaptability) and areas for growth (e.g., depth during absences). It lays a foundation for future exploration—like incorporating opponent stats or lineup synergies—while offering a data-driven playbook for basketball and analytics enthusiasts.
+This analysis of Partizan’s 2022/23 EuroLeague season uncovered strengths (e.g., Lessort’s efficiency, Leday’s adaptability) and areas for growth (e.g., depth during absences). It lays a foundation for future exploration, like incorporating opponent stats or lineup synergies, while offering a data-driven playbook for basketball and analytics enthusiasts.
 
 ## Tools I Used
 
