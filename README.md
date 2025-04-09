@@ -24,52 +24,52 @@ The cleaned dataset (`partizan_2022_cleaned.csv`), stored alongside the notebook
 ## Project Structure
 
 ### Cleaning Data
-- **File:** `2.cleaning_data.ipynb`
+- **File:** [2.cleaning_data.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/2.cleaning_data.ipynb)
 - **Description:** Cleans the raw dataset (`partizan_2022_raw.csv`) by handling missing values, standardizing formats, removing duplicates, and dropping irrelevant columns. Saves the cleaned data as `partizan_2022_cleaned.csv`.
 - **Key Steps:** Converts `minutes` to `total_seconds`, standardizes player names (e.g., "LEDAY, ZACH" → "Leday Zach"), ensures data consistency, and exports the cleaned dataset.
 
 ### Data Validation
-- **File:** `3.data_validation.ipynb`
+- **File:** [3.data_validation.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/3.data_validation.ipynb)
 - **Description:** Validates the cleaned dataset (`partizan_2022_cleaned.csv`) by checking consistency between player sums and team totals, verifying internal metrics, and confirming complex calculations like PIR.
 - **Key Steps:** Compares points and assists, explains rebound/turnover discrepancies (e.g., 135 unassigned rebounds), validates field goals and PIR, and ensures per-game consistency.
 
 ### Efficiency Metrics
-- **File:** `4.efficiency_metrics.ipynb`
+- **File:** [4.efficiency_metrics.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/4.efficiency_metrics.ipynb)
 - **Description:** Analyzes player performance using six efficiency metrics (TS%, PP32, AST/TO, USG%, PPP, REB%) to identify top performers and strategic insights.
 - **Key Steps:** Calculates metrics like True Shooting (e.g., Lessort 0.721) and Usage Rate (e.g., Punter 13.64%), ranks players, and highlights key contributors like Lessort, Punter, and Exum.
 
 ### Plus/Minus Analysis
-- **File:** `5.plus_minus.ipynb`
+- **File:** [5.plus_minus.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/5.plus_minus.ipynb)
 - **Description:** Evaluates player impact via plus/minus, comparing regular season and playoff performance, with visualizations to highlight trends.
 - **Key Steps:** Computes average plus/minus (e.g., Avramovic 3.67), analyzes playoff shifts (e.g., Smailagic +3.36), and plots top performers’ trends.
 
 ### Consistency Analysis
-- **File:** `6.consistency_analysis.ipynb`
+- **File:** [6.consistency_analysis.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/6.consistency_analysis.ipynb)
 - **Description:** Assesses player reliability using standard deviation (points, PIR, plus/minus) and autocorrelation (scoring streaks) for players with ≥10 games.
 - **Key Steps:** Identifies consistent performers (e.g., Vukcevic, points SD 2.23) and top scorers (e.g., Punter, 16.08 mean), analyzes streakiness (e.g., Trifunovic 0.27 autocorr).
 
 ### Trend Analysis
-- **File:** `7.trend_analysis_over_time.ipynb`
+- **File:** [7.trend_analysis_over_time.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/7.trend_analysis_over_time.ipynb)
 - **Description:** Tracks player performance trends (points, valuation, plus/minus) across regular season and playoffs, with statistical tests and visualizations.
 - **Key Steps:** Calculates phase-wise changes (e.g., Punter +9.82 valuation), tests significance (e.g., Punter p=0.2786), plots trends for top players.
 
 ### Home vs. Away Performance
-- **File:** `8.home_vs_away.ipynb`
+- **File:** [8.home_vs_away.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/8.home_vs_away.ipynb)
 - **Description:** Compares player and team performance at home vs. away, analyzing points, valuation, plus/minus, and defense, with statistical tests and visualizations.
 - **Key Steps:** Identifies home boosts (e.g., Madar +6.95 valuation), finds significant plus/minus advantage (4.27-point swing, p=0.0182), notes non-significant points (p=0.3298) and defense (p=0.8220) differences.
 
 ### Clustering Analysis of Player Roles
-- **File:** `9.clustering_with_k_means.ipynb`
+- **File:** [9.clustering_with_k_means.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/9.clustering_with_k_means.ipynb)
 - **Description:** Applies K-Means clustering to group players by per-minute stats (points, rebounds, assists, steals, blocks), identifying roles like “All-Around Bigs,” “Scoring Playmakers,” and “Defensive Specialists” using PCA and silhouette score.
 - **Key Steps:** Clusters 12 players into 3 groups (e.g., Lessort in “Bigs,” Punter in “Playmakers”), visualizes with PCA, and validates with silhouette score (0.29), suggesting moderate separation with some overlap (e.g., Papapetrou’s hybrid role).
 
 ### Predictive Modeling for Player Performance
-- **File:** `10.predictive_modeling.ipynb`
+- **File:** [10.predictive_modeling.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/10.predictive_modeling.ipynb)
 - **Description:** Forecasts points scored using Linear Regression (R²=0.36, RMSE=5.41) and Random Forest (R²=0.29, RMSE=5.70), with player-specific models for Punter (R²=0.61, RMSE=3.59) and Lessort (R²=-0.27, RMSE=4.24).
 - **Key Steps:** Uses features like playing time, prior points, and game context; Linear Regression excels generally, Punter’s model improves accuracy, while Lessort’s underperforms due to matchup dependency.
 
 ### Impact of Key Player Absences on Team and Individual Performance
-- **File:** `11.impact_of_absences.ipynb`
+- **File:** [11.impact_of_absences.ipynb](https://github.com/Skiz1945/Partizan_2022_23/blob/main/project_folder/11.impact_of_absences.ipynb)
 - **Description:** Examines effects of absences of top-five players by playing time (Leday, Lessort, Punter, Exum, Nunnally) on team points/valuation and Zach Leday’s stats across 39 games.
 - **Key Steps:** Finds team points drop (e.g., Exum’s absence: -28.16) and Leday’s scoring rises (e.g., Punter absent: 20.00 vs. 10.97), highlighting his adaptability.
 
